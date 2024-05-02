@@ -3,20 +3,21 @@ module github.com/b3liv3r/balance-for-gym
 go 1.21.0
 
 require (
+	github.com/b3liv3r/logger v0.0.0-20240412022745-2d3d3183cc2d
 	github.com/b3liv3r/protos-for-gym v0.0.5
 	github.com/golang/protobuf v1.5.4
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.2.0
-	gitlab.com/golight/loggerx v0.0.0-20240214161225-30e5ae3f40f7
 	go.uber.org/zap v1.27.0
 	google.golang.org/grpc v1.63.2
 )
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
-	go.uber.org/multierr v1.10.0 // indirect
+	github.com/stretchr/testify v1.8.4 // indirect
+	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/text v0.14.0 // indirect

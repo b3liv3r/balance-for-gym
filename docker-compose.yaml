@@ -2,8 +2,6 @@ services:
   db_wallet:
     image: postgres
     restart: always
-    ports:
-      - 5432:5432
     volumes:
       - ./modules/db/migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
