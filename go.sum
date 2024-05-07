@@ -4,6 +4,8 @@ github.com/b3liv3r/logger v0.0.0-20240412022745-2d3d3183cc2d h1:iyNUoyVHclJIDeuk
 github.com/b3liv3r/logger v0.0.0-20240412022745-2d3d3183cc2d/go.mod h1:HOnCK4iygBX8Wq2iHmp2dInxocJKz/0T7wMtdmc+jEQ=
 github.com/b3liv3r/protos-for-gym v0.0.5 h1:1BZCCzzDVMZ43f4c7LWx551EwdxinCPQfrjZ+oH2Q9Q=
 github.com/b3liv3r/protos-for-gym v0.0.5/go.mod h1:ZxDvDhdg7R+Q9VjX5mdGwT29C/z6YrRRFht7KaTB4uw=
+github.com/b3liv3r/protos-for-gym v0.0.15 h1:dxPdtbITC2CEMfjFfMhbBgm3+OIqTNec6bLJSZNSYNg=
+github.com/b3liv3r/protos-for-gym v0.0.15/go.mod h1:ZxDvDhdg7R+Q9VjX5mdGwT29C/z6YrRRFht7KaTB4uw=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=

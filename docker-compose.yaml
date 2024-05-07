@@ -11,7 +11,7 @@ services:
     networks:
       - default
 
-  users:
+  wallet:
     build: ./
     ports:
       - 30001:30001

@@ -4,7 +4,7 @@ go 1.21.0
 
 require (
 	github.com/b3liv3r/logger v0.0.0-20240412022745-2d3d3183cc2d
-	github.com/b3liv3r/protos-for-gym v0.0.5
+	github.com/b3liv3r/protos-for-gym v0.0.15
 	github.com/golang/protobuf v1.5.4
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/jmoiron/sqlx v1.3.5

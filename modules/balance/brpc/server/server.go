@@ -65,7 +65,7 @@ func (s *WalletRPCServer) History(ctx context.Context, req *walletv1.HistoryRequ
 	for _, t := range transactions {
 		timestamp, _ := ptypes.TimestampProto(t.Date)
 		protoTransaction := &walletv1.Transaction{
-			Id:          fmt.Sprintf("%d", t.Id),
+			Id:          int64(t.Id),
 			Type:        t.Type,
 			Amount:      t.Amount,
 			Description: t.Description,

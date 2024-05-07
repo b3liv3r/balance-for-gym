@@ -42,7 +42,6 @@ func (ws *WalletService) Update(ctx context.Context, userID int, amount float64,
 		return err
 	}
 
-	// Добавляем транзакцию в историю
 	transaction := models.Transaction{
 		UserId:      userID,
 		Amount:      amount,
