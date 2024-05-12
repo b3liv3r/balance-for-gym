@@ -4,6 +4,7 @@ services:
     restart: always
     volumes:
       - ./modules/db/migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./db_data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: root
